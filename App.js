@@ -40,31 +40,17 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Step One</Text>
-              <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
-              </Text>
+              <Text style={styles.sectionTitle}>this is featrue2</Text>
+              <Text style={styles.sectionTitle}>created from main branch</Text>
             </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See Your Changes</Text>
-              <Text style={styles.sectionDescription}>
-                <ReloadInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debug</Text>
-              <Text style={styles.sectionDescription}>
-                <DebugInstructions />
-              </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Learn More</Text>
-              <Text style={styles.sectionDescription}>
-                Read the docs to discover what to do next:
-              </Text>
-            </View>
-            <LearnMoreLinks />
+            <Text>this is dev branch</Text>
+            <Text>this is featrue2</Text>
+            <Text>featrue2 是从dev创建的新分支</Text>
+            <Text>一会要把main rebase过来</Text>
+            <Text>然后再把该分支的多次提交合并成一个提交</Text>
+            <Text>现在这个分支上已经有6次提交了</Text>
+            <Text>这是第七次提交</Text>
+            <Text>这是第八次提交,接下来要把main的rebase过来了</Text>
           </View>
         </ScrollView>
       </SafeAreaView>
