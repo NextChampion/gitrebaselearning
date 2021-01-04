@@ -39,7 +39,7 @@ const App: () => React$Node = () => {
             </View>
           )}
           <View style={styles.body}>
-            <Text>this is dev branch</Text>
+            <Text>this is feature1</Text>
           </View>
         </ScrollView>
       </SafeAreaView>
